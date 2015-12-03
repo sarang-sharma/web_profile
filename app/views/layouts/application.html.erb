@@ -12,11 +12,12 @@
 	<header id="main_navigation" class="clearfix">
 	<%= link_to "Sarang Sharma", root_path, class: "name" %>
 	<nav>
-		<a href="index.html">Home</a>
-		<a href="#">Projects</a>
+		<%= link_to "Home", root_path %>
+		<%= link_to "Projects", projects_path %>
 		<a href="#">Skills</a>
-		<a href="contact.html">Contact</a>
 		<%= link_to "Articles", posts_path %>
+		<a href="contact.html">Contact</a>
+		
 	</nav>
 		
 	</header>
